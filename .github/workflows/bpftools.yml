@@ -67,3 +67,5 @@ jobs:
         with:
           name: bpftrace-android-${{ matrix.env['ARCH'] }}
           path: out/android/${{ matrix.env['ARCH'] }}/bin/bpftrace
+
+ workflow_dispatch:
